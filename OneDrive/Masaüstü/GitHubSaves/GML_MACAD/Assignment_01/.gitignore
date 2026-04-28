@@ -54,6 +54,10 @@ coverage.xml
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Jupyter Notebook files (ignore outside .venv)
+*.ipynb
+!.venv/**/*.ipynb
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -156,3 +160,6 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+Supporting Files
+.ipynb
